@@ -1,8 +1,7 @@
 name: flutter_item_widget
-description: A new Flutter package.
+description: a common left right item widget container.
 version: 0.0.1
-author: lsman
-homepage: ""
+homepage: "https://github.com/lisong15/flutter_item_widget"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

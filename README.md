@@ -1,6 +1,6 @@
 # flutter_item_widget
 
-A new Flutter package.
+a common left right item widget container.
 
 ## Getting Started
 
