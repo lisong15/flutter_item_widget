@@ -1,6 +1,6 @@
 name: flutter_item_widget
-description: a common left right item widget container.
-version: 0.0.1
+description: a common left right item widget container. support All platform.
+version: 0.0.2
 homepage: "https://github.com/lisong15/flutter_item_widget"
 
 environment:
