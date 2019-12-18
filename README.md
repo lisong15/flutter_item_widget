@@ -45,7 +45,8 @@ ItemWidget(
               )
 ...
 ```
-### Avaiable Properties
+![效果图](https://github.com/lisong15/flutter_item_widget/raw/master/imgs/sample_pre.png)
+### Available Properties
 * **width:num**|宽度，默认屏幕宽度
 * **weightLeft:int**|左边占的比例，默认1
 * **weightRight:int**|右边占的比例，默认1
