@@ -10,7 +10,7 @@ class Calculator {
 
 class ItemWidget extends StatelessWidget {
   final num width;
-  final num height;
+  final num _height = 0;
   final int weightLeft;
   final int weightRight;
   final Alignment alignmentLeft;
@@ -34,7 +34,6 @@ class ItemWidget extends StatelessWidget {
       this.weightLeft = 1,
       this.weightRight = 1,
       this.width = double.infinity,
-      this.height = 48,
       this.alignmentLeft = Alignment.centerLeft,
       this.alignmentRight = Alignment.centerRight})
       : assert(widgetLeft != null),
