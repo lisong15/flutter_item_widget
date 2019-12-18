@@ -8,22 +8,30 @@ class Calculator {
   int addOne(int value) => value + 1;
 }
 
+/// 左右分开的widget,默认分散对齐
 class ItemWidget extends StatelessWidget {
+  /// the width of ItemWidget
   final num width;
-  final num _height = 0;
+
+  /// the weight of left widget
   final int weightLeft;
+
+  /// the weight of right widget
   final int weightRight;
+
+  /// alignment in left widget
   final Alignment alignmentLeft;
 
+  /// alignment in right widget
   final Alignment alignmentRight;
 
-  //view背景颜色
+  ///ItemWidget的背景颜色
   final Color bgColor;
 
-  //左边的widget
+  ///左边的widget
   final Widget widgetLeft;
 
-  //右边的widget
+  ///右边的widget
   final Widget widgetRight;
 
   /// 左右分开的widget,默认分散对齐
